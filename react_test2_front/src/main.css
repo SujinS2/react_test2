@@ -1,0 +1,165 @@
+div.App {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+header {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background: #c2e59c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #64b3f4,
+    #c2e59c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #64b3f4,
+    #c2e59c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+}
+header > .logo {
+  padding-left: 30px;
+}
+header > .nav {
+  display: flex;
+  background-color: #fff;
+  border-bottom: 2px solid #c2e59c;
+  gap: 40px;
+}
+header > .nav a {
+  padding: 10px 30px;
+  color: #64b3f4;
+}
+.list-wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+.content > div > h2 {
+  text-align: center;
+  color: #64b3f4;
+  padding: 20px;
+}
+
+.content table.tbl {
+  width: 100%;
+}
+.content table.tbl th {
+  height: 50px;
+  background-color: #c2e59c;
+  color: #fff;
+}
+
+.content table.tbl td {
+  height: 50px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.content table.view-tbl {
+  width: 50%;
+  margin: 0 auto;
+}
+.content table td.button {
+  border: none;
+}
+.content table td.button > button {
+  width: 150px;
+  height: 30px;
+  margin: 0 10px;
+  border: none;
+  background-color: #c2e59c;
+  color: #fff;
+  font-weight: 700;
+}
+
+.content table.view-tbl input {
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.content table.view-tbl textarea {
+  border: none;
+  outline: none;
+  padding: 20px;
+}
+.content > .delete-wrap > .msg {
+  width: 60%;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.content > .delete-wrap > .msg > h4 {
+  text-align: center;
+  color: #64b3f4;
+  line-height: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.content div.button {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 10px;
+}
+.content div.button > button {
+  width: 150px;
+  height: 30px;
+  border: none;
+  outline: none;
+  background-color: #c2e59c;
+  color: #fff;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.content div.input-wrap {
+  width: 400px;
+  margin: 0 auto;
+}
+.content div.input-wrap > .input {
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content div.input-wrap > .input > label {
+  height: 40px;
+  color: #64b3f4;
+  font-weight: bold;
+}
+.content div.input-wrap > .input > input {
+  width: 75%;
+  outline: none;
+  text-decoration: none;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+.content div.input-wrap > .input > textarea {
+  width: 75%;
+  outline: none;
+  text-decoration: none;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.content div.input-wrap > .input > input:focus {
+  border-bottom: 3px solid #64b3f4;
+}
+
+.content div.input-wrap > .input > textarea:focus {
+  border: 3px solid #64b3f4;
+}
